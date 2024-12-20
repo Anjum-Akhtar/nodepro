@@ -4,7 +4,7 @@ const session       = require('express-session');
 const mysql         = require('mysql');
 const bcrypt        = require('bcryptjs');
 // require('crypto').randomBytes(64).toString('hex');
-
+// https://github.com/jonasschmedtmann/complete-node-bootcamp
 const app = express();
 const port = 3000;
 
